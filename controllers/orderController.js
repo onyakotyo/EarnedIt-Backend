@@ -1,8 +1,7 @@
 import asyncHandler from 'express-async-handler'
 import Order from '../models/orderModel.js'
-//const stripe = require("stripe")(sk_test_DIeLvFU6F4MVTluMPrwu9lDL00OEVoDGsO);
 //import stripe  from 'stripe'; {process.env.STRIPE_SECRET_KEY};
-import stripe  from 'stripe'; 'sk_test_DIeLvFU6F4MVTluMPrwu9lDL00OEVoDGsO';
+import stripe  from 'stripe'; 'sk_test_xxxxxx';
 import { v4 as uuidv4 } from 'uuid';
 
 // @desc    Create new order
